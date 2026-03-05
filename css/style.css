@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+:root {
+  --primary-color: #17b091;
+  --secondary-color: #013153;
+  --gray-color: #686868;
+  --gray-text: #9b9b9b;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.heading h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* --- Navbar --- */
+
+.navbar{
+    position: fixed !important;
+    top: 0;
+    background: white;
+    width: 100%;
+}
+
+.navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Saira Condensed", sans-serif;
+  color: var(--primary-color) !important;
+}
+
+.navbar .chat-btn {
+  border-radius: 20px;
+  padding: 7px 20px;
+  background: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+
+.offcanvas-title {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Saira Condensed", sans-serif;
+  color: var(--primary-color) !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url(../assets/icon/bars.svg);
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+.navbar .active {
+  color: var(--primary-color) !important;
+}
+
+/* --- Hero Section --- */
+
+.hero-section {
+  min-height: 80vh;
+  width: 100%;
+  padding-top: 100px !important;
+  background: #fdf3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  text-align: center;
+}
+
+.hero-img img {
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.hero-contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-contant h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.hero-contant p {
+  color: var(--gray-text);
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero-contant a {
+  width: 170px;
+  border-radius: 20px;
+  padding: 7px 20px;
+  margin-top: 10px;
+  background: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+
+/* --- About Section --- */
+
+.about-secton .container {
+  margin-top: 40px;
+}
+
+.about-contant p {
+  color: var(--gray-text);
+  font-size: 18px;
+}
+
+/* --- Services Section --- */
+
+.services-section {
+  background: #fdf3f3;
+}
+
+.services-section .container {
+  margin-top: 40px;
+}
+
+.service-card {
+  background: var(--white-color);
+  border-radius: 16px;
+  padding: 40px 24px;
+}
+
+.service-card img {
+  width: 36px;
+}
+
+.service-card h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.service-card p {
+  color: #b3b3b3;
+  font-size: 17px;
+  margin-top: 16px;
+}
+
+.active-card {
+  background: #f1544b;
+  color: var(--white-color);
+}
+
+.active-card p {
+  color: var(--white-color);
+}
+
+/* --- Portfolio Section --- */
+
+.portfolio-section {
+  background: var(--white-color);
+}
+
+.portfolio-section .container {
+  margin-top: 40px;
+}
+
+.portfolio-project img {
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
+}
+.portfolio-btn {
+  font-size: 17px;
+  font-weight: 500;
+  border: 2px solid #f1544b !important;
+  border-radius: 0 !important;
+  color: #f1544b !important;
+}
+
+.portfolio-btn img {
+  margin-left: 10px;
+}
+
+/* --- Customer Section --- */
+
+.customer-section {
+  background: #fdf3f3;
+    padding-bottom: 25vh;
+}
+
+.customer-section .container {
+  margin-top: 40px;
+}
+
+.customer-card {
+  padding: 40px 24px;
+  background: var(--white-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.customer-card h2 {
+  margin-top: 13px;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.customer-card h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.customer-card p {
+  margin-top: 18px;
+  color: var(--gray-text);
+}
+
+footer {
+  background: var(--secondary-color);
+  color: var(--white-color) !important;
+}
+
+.footer-name {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Saira Condensed", sans-serif;
+  color: var(--primary-color) !important;
+}
